@@ -28,7 +28,7 @@ The diff between `main` and `mina_bridge` is minimal — primarily version bumps
 This gives us confidence that **AlignedLayer's changes on top of `mina-rust` for Mesa support will also be small and peripheral.**
 
 Note that `lambdaclass/openmina/main` tracks `o1-labs/mina-rust` as its upstream.
-![lambdaclass:openmina:tree:main.png](./lambdaclass:openmina:tree:main.png)
+![lambdaclass_openmina_tree_main.png](./lambdaclass_openmina_tree_main.png)
 
 
 > **Open question:** Does `o1-labs/mina-rust` already support the Mesa hard fork?
