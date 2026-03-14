@@ -32,7 +32,7 @@ Note that `lambdaclass/openmina/main` tracks `o1-labs/mina-rust` as its upstream
 
 
 > **Open question:** Does `o1-labs/mina-rust` already support the Mesa hard fork?
-> A question has been submitted upstream — no response yet.
+> [A question has been submitted in Discord](https://discord.com/channels/484437221055922177/1482247189055934464/1482247189055934464) — no response yet.
 >
 > *Side note:* As of the time of writing, neither the release tags nor any branch of `o1-labs/mina-rust` appear to include Mesa HF support. For example:
 > - [tag-0.19.0](https://github.com/o1-labs/mina-rust/blob/ed6f4301d594d7db066ae71cbcd7f9e34f6e02a1/Cargo.toml#L140) pins `o1-labs/proof-systems` at [tag-0.2.0](https://github.com/o1-labs/proof-systems/releases/tag/0.2.0)
