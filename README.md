@@ -4,6 +4,8 @@
 
 AlignedLayer's current support for Mina (Berkeley) required only minor, peripheral code changes. Based on the analysis below, supporting Mina (Mesa) is expected to follow the same pattern — the required changes will be small and isolated.
 
+However, Supporting Mina (Mesa HF) in AlignedLayer will be blocked on upstream stabilization: both `o1-labs/mina-rust` and `o1-labs/proof-systems` need to ship stable Mesa-compatible releases before AlignedLayer can integrate them.
+
 ---
 
 ## Methodology
