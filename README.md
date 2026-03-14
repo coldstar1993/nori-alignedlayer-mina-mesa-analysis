@@ -25,10 +25,11 @@ These crates depend on the [`lambdaclass/openmina` — `mina_bridge` branch](htt
 
 The diff between `main` and `mina_bridge` is minimal — primarily version bumps in `Cargo.toml` and small adjustments to function signatures. See the [full comparison here](https://github.com/lambdaclass/openmina/compare/main...lambdaclass:openmina:mina_bridge).
 
-This gives us confidence that **AlignedLayer's changes on top of `mina-rust` for Mesa support will also be small and peripheral.**
-
 Note that `lambdaclass/openmina/main` tracks `o1-labs/mina-rust` as its upstream.
 ![lambdaclass_openmina_tree_main.png](./lambdaclass_openmina_tree_main.png)
+
+This gives us confidence that **AlignedLayer's changes on top of `mina-rust` for Mesa support will also be small and peripheral.**
+
 
 
 > **Open question:** Does `o1-labs/mina-rust` already support the Mesa hard fork?
