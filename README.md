@@ -63,6 +63,12 @@ This confirms that **AlignedLayer's changes on top of `proof-systems` for Mesa s
 
 The same conclusion applies — the delta is minimal.
 
+### 4. `MinaAccountValidationExample.sol` within [lambdaclass/mina_bridge](lambdaclass/mina_bridge)
+
+Within [mina-account](https://github.com/yetanotherco/aligned_layer/tree/staging/operator/mina_account/lib) crate of `aligned_layer` repo, [here](https://github.com/yetanotherco/aligned_layer/blob/staging/operator/mina_account/lib/src/lib.rs#L84) we could see it depends on `MinaAccountValidationExample.Account` of [lambdaclass/mina_bridge](lambdaclass/mina_bridge). And `MinaAccountValidationExample.Account` is generated from [MinaAccountValidationExample.sol](https://github.com/lambdaclass/mina_bridge/blob/82830aff612217da11502cfaae0f1fc49083b28d/contract/src/MinaAccountValidationExample.sol#L129)
+
+So, to be exact, it requires that we first extend [the size number of appState](https://github.com/lambdaclass/mina_bridge/blob/82830aff612217da11502cfaae0f1fc49083b28d/contract/src/MinaAccountValidationExample.sol#L129) from exsting `8` to `32`. And then re-generate the abi json file into the original directory: [core/abi/](https://github.com/lambdaclass/mina_bridge/tree/82830aff612217da11502cfaae0f1fc49083b28d/core/abi).
+
 ---
 
 ## Conclusion
