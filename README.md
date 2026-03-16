@@ -69,6 +69,8 @@ Within [mina-account](https://github.com/yetanotherco/aligned_layer/tree/staging
 
 So, to be exact, it requires that we first extend [the size number of appState](https://github.com/lambdaclass/mina_bridge/blob/82830aff612217da11502cfaae0f1fc49083b28d/contract/src/MinaAccountValidationExample.sol#L129) from exsting `8` to `32`. And then re-generate the abi json file into the original directory: [core/abi/](https://github.com/lambdaclass/mina_bridge/tree/82830aff612217da11502cfaae0f1fc49083b28d/core/abi).
 
+Totally, the delta is minimal.
+
 ---
 
 ## Conclusion
